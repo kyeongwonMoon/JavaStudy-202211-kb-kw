@@ -27,11 +27,24 @@ public class Array5 {
         }
 
         System.out.println("min : " + min);
-
-        int minnum0;
-        if(nums1[0] < nums2[0]){
-
+        int [] minnum = new int[nums1.length];
+        for(int i = 0; i < nums1.length; i++){
+            if(nums1[i] < nums2[i]){
+                minnum[i] = nums1[i];
+            } else if (nums2[i] < nums3[i]){
+                minnum[i] = nums2[i];
+            } else if (nums3[i] < nums4[i]){
+                minnum[i] = nums3[i];
+            } else {
+                minnum[i] = nums4[i];
+            }
         }
+
+        for(int i = 0; i < nums1.length; i++){
+            System.out.print(minnum[i]);
+            System.out.print(i != (nums1.length-1) ? ", " : " ");
+        }
+
 
     }
 }
