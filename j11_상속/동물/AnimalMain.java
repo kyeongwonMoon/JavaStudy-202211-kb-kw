@@ -34,5 +34,6 @@ public class AnimalMain {
                 System.out.println("다운캐스팅 불가");
             }
         }
+
     }
 }
