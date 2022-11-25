@@ -15,9 +15,14 @@ public class EntityMain {
 
         System.out.println(entity.getAddress());
 
+        System.out.println(Entity.class);
+        Class c = Entity.class;
+
+        Object obj = new Student(20220001, "김**");
+
+        System.out.println(Entity.class == entity.getClass());
+        System.out.println(Entity.class.equals(obj.getClass()));
+        System.out.println(obj instanceof Entity);
     }
-
-
-
 
 }
