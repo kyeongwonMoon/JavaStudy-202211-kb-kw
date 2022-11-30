@@ -3,7 +3,7 @@ package j16_컬렉션.Map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StromgMap {
+public class StringMap {
 	
 	public static void main(String[] args) {
 		
