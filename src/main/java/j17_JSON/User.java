@@ -17,7 +17,7 @@ public class User {
 	
 	@Expose(serialize = true, deserialize = true)
 	private String username;
-	@Expose(serialize = false, deserialize = false)
+	@Expose(serialize = true, deserialize = false)
 	private String password;
 	@Expose(serialize = true, deserialize = false)
 	private String name;

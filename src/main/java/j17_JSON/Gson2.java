@@ -11,7 +11,7 @@ public class Gson2 {
 				.username("junil")
 				.password("1234")
 				.name("김준일")
-//				.email("junil@gmail.com")
+				.email("junil@gmail.com")
 				.build();
 		
 		System.out.println(user);
@@ -30,6 +30,7 @@ public class Gson2 {
 		userObj = gson.fromJson(userJson, User.class);
 		System.out.println(userObj);
 		
+		System.out.println(userJson);
 		
 	}
 

@@ -17,7 +17,7 @@ public class ThrowsException {
 		try {
 			printArray(nums);
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 		}
 
 		System.out.println("프로그램 정상 종료");
